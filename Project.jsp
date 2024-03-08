@@ -15,7 +15,7 @@
         String name = request.getParameter("username");
         String action = request.getParameter("action");
         // Regular expression to check if the name contains numbers
-        String regex = ".\\d.";
+        String regex = ".*\\d.*";
         
         if (name != null && !name.isEmpty()) {
             if (name.matches(regex)) {
