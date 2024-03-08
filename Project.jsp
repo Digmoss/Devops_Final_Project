@@ -23,8 +23,8 @@
                 out.println("<h3>Name must contain letters only. Please try again.</h3>");
             } else {
                 // Proceed with the original logic if no numbers are found
-                if ("Say Hello my friend".equals(action)) {
-                    out.println("<h3>Hello, " + name + "!</h3>");
+                if ("Say Hello".equals(action)) {
+                    out.println("<h3>Hello my friend, " + name + "!</h3>");
                 } else if ("Submit Name".equals(action)) {
                     out.println("<h3>Name submitted: " + name + "</h3>");
                 }
